@@ -393,31 +393,6 @@ ul.callbacks_tabs.callbacks2_tabs {
   float: left;
 }
 /*--welcome-Part-Ends-Here --*/
-/*--starts-icones-contato--*/
-.cnt-left span{
-	background:url(../images/cnt.png) no-repeat;
-	width:26px;
-	height:26px;
-	display:block;
-}
-.cnt-left span.ads{
-	background-position:0px 0px;
-}
-.cnt-left span.ph{
-	background-position:-26px 0px;
-}
-.cnt-left span.email{
-	background-position:-52px 0px;
-}
-.phone{
-	margin-top:1.5em;
-}
-.contact-header {
-  float:right;
-}
-/*--end-icones-contato--*/
-
-
 /*--custom-Part-Starts-Here --*/
 .custom{
 	background:url(../images/custom.jpg) no-repeat;
