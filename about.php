@@ -1,67 +1,49 @@
 
 <!DOCTYPE html>
-<html>
-<head>
-<title>Play-Kids Eventos - Decorando Emoções</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Dream Wedding Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-<script src="js/jquery-1.11.0.min.js"></script>
-<!---- start-smoth-scrolling---->
+ <html lang="pt-br">
+ <head>
+ <title>Play-Kids Eventos - Decorando Emoções</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+ <meta name="keywords" content="" >
+ <meta name="description" content="" >
+ <script type="application/x-javascript"> addEventListener("load", function() {
+setTimeout(hideURLbar, 0); }, false); function hideURLbar(){
+window.scrollTo(0,1); } </script>
+ <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+ <link href="css/style.css" rel='stylesheet' type='text/css' />
+ <link href='http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic'
+rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
+rel='stylesheet' type='text/css'>
+ <script src="js/jquery-1.11.0.min.js"></script>
+<!--start-smoth-scrolling-->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
 			});
 		</script>
 
-<!---- start-smoth-scrolling---->
+<!--start-smoth-scrolling-->
 
 </head>
 <body>
-	<!----start-header---->
-	<div class="header" id="home">
-		<div class="container">
-			<div class="logo">
-				<a href="index.html"><img src="images/lg-2.png" alt=""></a>
-			</div>
-			<div class="navigation">
-			 <span class="menu"></span> 
-				<ul class="navig">
-					<li><a href="index.html">Início</a><span> </span></li>
-					<li><a class="active" href="about.html">Sobre</a><span> </span></li>
-					<li><a href="gallery.html">Galeria</a><span> </span></li>
-					<li><a href="contact.html">Contato</a><span> </span></li>
-				</ul>
-			</div>
-				 <!-- script-for-menu -->
-		 <script>
-				$("span.menu").click(function(){
-					$(" ul.navig").slideToggle("slow" , function(){
-					});
-				});
-		 </script>
-		 <!-- script-for-menu -->
-		</div>
-	</div>	
-	<!----end-header---->
+	<!--start-header-->
+  <?php include 'inc/header.php'; ?>
+
+	<!--end-header-->
 	<!--banner-starts-->
 	<div class="clearfix"> </div>
-					
+
 							<img src="images/bnr-4.jpg" alt="">
-					
-				
-		
+
+
+
 		<div class="clearfix"> </div>
 	<!----end-banner---->
 	<!----start-about---->
@@ -93,7 +75,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h4>Maecenas vitae pharetra</h4>
 							<p>Vivamus mauris dui, mattis non nisl in, sollicitudin venenatis tortor. Nam lacinia, erat id commodo egestas, diam arcu feugiat nunc, convallis ullamcorper quam mauris sit amet orci. Aliquam fringilla eleifend orci ac iaculis.</p>
 						</div>
-						<div class="clearfix"></div>	
+						<div class="clearfix"></div>
 					</div>
 					<div class="col-md-6 why-left">
 						<div class="col-md-5 why-one-left">
@@ -103,10 +85,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h4>Maecenas vitae pharetra</h4>
 							<p>Vivamus mauris dui, mattis non nisl in, sollicitudin venenatis tortor. Nam lacinia, erat id commodo egestas, diam arcu feugiat nunc, convallis ullamcorper quam mauris sit amet orci. Aliquam fringilla eleifend orci ac iaculis.</p>
 						</div>
-						<div class="clearfix"></div>	
-					</div>	
-					<div class="clearfix"></div>	
-				</div>	
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
 				<div class="why-one">
 					<div class="col-md-6 why-left">
 						<div class="col-md-5 why-one-left">
@@ -116,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h4>Maecenas vitae pharetra</h4>
 							<p>Vivamus mauris dui, mattis non nisl in, sollicitudin venenatis tortor. Nam lacinia, erat id commodo egestas, diam arcu feugiat nunc, convallis ullamcorper quam mauris sit amet orci. Aliquam fringilla eleifend orci ac iaculis.</p>
 						</div>
-						<div class="clearfix"></div>	
+						<div class="clearfix"></div>
 					</div>
 					<div class="col-md-6 why-left">
 						<div class="col-md-5 why-one-left">
@@ -126,10 +108,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h4>Maecenas vitae pharetra</h4>
 							<p>Vivamus mauris dui, mattis non nisl in, sollicitudin venenatis tortor. Nam lacinia, erat id commodo egestas, diam arcu feugiat nunc, convallis ullamcorper quam mauris sit amet orci. Aliquam fringilla eleifend orci ac iaculis.</p>
 						</div>
-						<div class="clearfix"></div>	
-					</div>	
-					<div class="clearfix"></div>	
-				</div>	
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -196,12 +178,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								  			containerID: 'toTop', // fading element id
 											containerHoverID: 'toTopHover', // fading element hover id
 											scrollSpeed: 1200,
-											easingType: 'linear' 
+											easingType: 'linear'
 								 		};
 										*/
-										
+
 										$().UItoTop({ easingType: 'easeOutQuart' });
-										
+
 									});
 								</script>
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
