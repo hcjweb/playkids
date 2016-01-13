@@ -1,34 +1,38 @@
 
 <!DOCTYPE html>
-<html>
-<head>
-<title>Play-Kids Eventos - Decorando Emoções</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Dream Wedding Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
-
-
-<!------ Light Box ------>
-<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
-<link rel="stylesheet" href="css/swipebox.css">
-<link rel="stylesheet" href="css/galeria.css">
-<script src="js/ios-orientationchange-fix.js"></script>
-<script src="js/jquery.swipebox.min.js"></script>
+ <html lang="pt-br">
+ <head>
+ <title>Play-Kids Eventos - Decorando Emoções</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+ <meta name="keywords" content="" >
+ <meta name="description" content="" >
+ <script type="application/x-javascript"> addEventListener("load", function() {
+setTimeout(hideURLbar, 0); }, false); function hideURLbar(){
+window.scrollTo(0,1); } </script>
+ <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+ <link href="css/style.css" rel='stylesheet' type='text/css' />
+ <link href='http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic'
+rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
+rel='stylesheet' type='text/css'>
+ <script src="js/jquery-1.11.0.min.js"></script>
+<!--start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
-		jQuery(function($) {
-			$(".swipebox").swipebox();
-		});
-	</script>
-	<!------ Eng Light Box ------>
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+
+<!--start-smoth-scrolling-->
 
 </head>
+
 <body>
 	<!----start-header---->
 
