@@ -19,11 +19,11 @@
       </section>
       <section class="mail">
         <img src="" alt="" />
-        <p><a href="contact.php">helio@hcjweb.com.br</a></p>
+        <p><a href="contact.php">contato@playkids-eventos.com.br</a></p>
       </section>
       <section class="endereco">
         <img src="" alt="" />
-        <p><a href="contact.php">Rua Rio Grande do Sul, 363 Alumínio - SP</a></p>
+        <p><a href="contact.php">Rua Germano Negrini, 150 - São Roque - SP</a></p>
       </section>
 </div>
 
