@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
  <html lang="pt-br">
  <head>
@@ -28,11 +27,21 @@ rel='stylesheet' type='text/css'>
 				});
 			});
 		</script>
-
 <!--start-smoth-scrolling-->
+<!------ Light Box ------>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<link rel="stylesheet" href="css/swipebox.css">
+<link rel="stylesheet" href="css/galeria.css">
+<script src="js/ios-orientationchange-fix.js"></script>
+<script src="js/jquery.swipebox.min.js"></script>
+<script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+	<!------ Eng Light Box ------>
 
 </head>
-
 <body>
 	<!----start-header---->
 
