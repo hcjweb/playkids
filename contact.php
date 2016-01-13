@@ -54,7 +54,7 @@ rel='stylesheet' type='text/css'>
 				<h3>CONTATO</h3>
 			</div>
 			<div class="contact-bottom">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6632.248000703498!2d151.265683!3d-33.7832959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12abc7edcbeb07%3A0x5017d681632bfc0!2sManly+Vale+NSW+2093%2C+Australia!5e0!3m2!1sen!2sin!4v1433329298259" frameborder="0" style="border:0"></iframe>
+
 				<div class="contact-text">
 					<div class="col-md-9 contact-left">
 						<input type="text" value="Nome" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nome';}" />
@@ -85,51 +85,17 @@ rel='stylesheet' type='text/css'>
 						</div>
 					</div>
 					<div class="clearfix"></div>
+
 				</div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6632.248000703498!2d151.265683!3d-33.7832959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12abc7edcbeb07%3A0x5017d681632bfc0!2sManly+Vale+NSW+2093%2C+Australia!5e0!3m2!1sen!2sin!4v1433329298259" frameborder="0" style="border:0"></iframe>
 			</div>
 		</div>
 	</div>
 	<!----end-contact---->
 	<!----start-footer---->
-	<div class="footer">
-		<div class="container">
-			<div class="footer-top">
-				<ul>
-					<li><a href="#"><span class="fb"> </span></a></li>
-					<li><a href="#"><span class="twit"> </span></a></li>
-					<li><a href="#"><span class="google"> </span></a></li>
-					<li><a href="#"><span class="pin"> </span></a></li>
-					<li><a href="#"><span class="dribble"> </span></a></li>
-				</ul>
-			</div>
-			<div class="newsletter">
-				<ul>
-					<li><h6>Cadastre-se  :</h6></li>
-					<li><input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/></li>
-					<li><form><input type="submit" value="Enviar" /></form></li>
-				</ul>
-			</div>
-			<div class="footer-text">
-				<p>Design by <a href="http://hcjweb.com.br/" target="_blank"> hcjweb</a></p>
-			</div>
-		</div>
-		<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear'
-								 		};
-										*/
 
-										$().UItoTop({ easingType: 'easeOutQuart' });
+<?php include 'inc/footer.php'; ?>
 
-									});
-								</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	</div>
 	<!----end-footer---->
 </body>
 </html>
