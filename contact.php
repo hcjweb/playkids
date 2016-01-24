@@ -56,7 +56,12 @@ rel='stylesheet' type='text/css'>
 			<div class="contact-bottom">
 
 				<div class="contact-text">
-					<div class="col-md-9 contact-left">
+          <div class="col-md-9 contact-left">
+            <?php include 'inc/form.php' ?>
+          </div>
+
+
+					<!--<div class="col-md-9 contact-left">
 						<input type="text" value="Nome" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nome';}" />
 						<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" />
 						<input type="text" value="Telefone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telefone';}" />
@@ -70,7 +75,7 @@ rel='stylesheet' type='text/css'>
 									<input type="submit" value="Enviar">
 								</form>
 							</div>
-					</div>
+					</div>-->
 					<div class="col-md-3 contact-right">
 						<div class="address">
 							<h5>Entre em Contato</h5>
