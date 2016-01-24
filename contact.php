@@ -46,8 +46,8 @@ rel='stylesheet' type='text/css'>
 
 		<div class="clearfix"> </div>
 			<!--End-slider-script-->
-	<!----end-banner---->
-	<!----start-contact---->
+	<!--end-banner-->
+	<!--start-contact-->
 	<div class="contact">
 		<div class="container">
 			<div class="contact-top heading">
