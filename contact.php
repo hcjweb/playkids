@@ -60,10 +60,10 @@ rel='stylesheet' type='text/css'>
 						<input type="text" value="Nome" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nome';}" />
 						<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" />
 						<input type="text" value="Telefone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telefone';}" />
-                        <input type="text" value="Data" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Data';}" />
-                        <input type="text" value="Local" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Local';}" />
-                        <input type="text" value="Número de Pessoas" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Número de Pessoas';}" />
-                        <input type="text" value="Cidade" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Cidade';}" />
+            <input type="text" value="Data" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Data';}" />
+            <input type="text" value="Local" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Local';}" />
+            <input type="text" value="Número de Pessoas" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Número de Pessoas';}" />
+            <input type="text" value="Cidade" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Cidade';}" />
 						<textarea value="Mensagem:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Mensagem..</textarea>
 							<div class="submit-btn">
 								<form>
