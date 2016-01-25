@@ -56,9 +56,12 @@ rel='stylesheet' type='text/css'>
 			<div class="contact-bottom">
 
 				<div class="contact-text">
-          <div class="col-md-9 contact-left">
+          <div class="col-md-8 contact-left">
             <?php include 'inc/form.php' ?>
+            <div class="clearfix"></div>
+
           </div>
+
 
 
 					<!--<div class="col-md-9 contact-left">
@@ -76,11 +79,11 @@ rel='stylesheet' type='text/css'>
 								</form>
 							</div>
 					</div>-->
-					<div class="col-md-3 contact-right">
+					<div class="col-md-4 contact-right">
 						<div class="address">
 							<h5>Entre em Contato</h5>
-							<p>Play-Kids Eventos,
-							<span>Rua Germano Negrini, 150</span>
+							<p>Play-Kids Eventos
+							<span>Rua Germano Negrini, 150 sala 6</span>
 							São Roque - SP.</p>
 						</div>
 						<div class="address">
