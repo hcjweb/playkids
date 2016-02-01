@@ -7,9 +7,9 @@
          <span class="menu"></span>
           <ul class="navig">
             <li><a href="index.php">Início</a></li>
-            <li><a href="about.php">Sobre</a></li>
+            <li><a href="about.php">Playkids</a></li>
             <li><a href="services.php">Serviços</a></li>
-            <li><a href="gallery.php">Galeria</a></li>
+            <li><a href="gallery.php">Temas</a></li>
             <li><a href="contact.php">Contato</a></li>
           </ul>
         </div>

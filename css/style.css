@@ -42,17 +42,17 @@ body a:hover{
 }
 .contact-header {
   float: left;
-  padding: 1em .5em 0em 0em;
+  padding: 1em 0em 0em 0em;
   text-align: left;
   line-height: 2em;
 }
 .navigation {
   float: left;
-  padding: 2.5em 10em 0em 14em;
+  padding: 2em 9em 0em 14em;
   font-size: 1.1em;
 }
 .fone {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 ul.navig{
@@ -512,7 +512,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .footer-top {
   margin-top: 11%;
   text-align: center;
-  
+
 }
 .footer-top ul{
 	padding:0;
