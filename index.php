@@ -12,6 +12,7 @@ setTimeout(hideURLbar, 0); }, false); function hideURLbar(){
 window.scrollTo(0,1); } </script>
  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
  <link href="css/style.css" rel='stylesheet' type='text/css' />
+ <link rel="stylesheet" href="css/galeria.css" type="text/css" />
  <link href='http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic'
 rel='stylesheet' type='text/css'>
  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
@@ -150,44 +151,87 @@ rel='stylesheet' type='text/css'>
 	<!----start-bridal---->
 	<div class="bridal">
 		<div class="container">
-			<div class="bridal-top">
-				<div class="col-md-6 bridal-top-left">
-					<img src="images/b-3.jpg" alt="" />
-					<div class="b-1">
-						<h3>Lembranças</h3>
-					</div>
-				</div>
-				<div class="col-md-6 bridal-top-left">
-					<img src="images/b-2.jpg" alt="" />
-					<div class="b-1">
-						<h3>Painéis Decorativos</h3>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
+      <h3>Nossos Serviços</h3>
+
 			<div class="bridal-bottom">
 				<div class="col-md-4 bridal-bottom-left">
 					<img src="images/b-4.jpg" alt="" />
 					<div class="b-2">
-						<h3>Buquês</h3>
+						<h3>Decoração</h3>
+            <p>Pellentesque consequat viverra ipsum eget efficitur. Integer lobortis scelerisque urna id eleifend. Nullam sagittis consequat dui ac scelerisque. Proin tempus venenatis euismod. Suspendisse ex elit, fermentum.</p>
 					</div>
 				</div>
 				<div class="col-md-4 bridal-bottom-left">
 					<img src="images/b-6.jpg" alt="" />
 						<div class="b-2">
-							<h3>Brinquedos</h3>
+							<h3>Buffet</h3>
+              <p>Pellentesque consequat viverra ipsum eget efficitur. Integer lobortis scelerisque urna id eleifend. Nullam sagittis consequat dui ac scelerisque. Proin tempus venenatis euismod. Suspendisse ex elit, fermentum.</p>
 						</div>
 				</div>
 				<div class="col-md-4 bridal-bottom-left">
 					<img src="images/d-7.jpg" alt="" />
 						<div class="b-2">
-							<h3>Barracas</h3>
+							<h3>Locação</h3>
+              <p>Pellentesque consequat viverra ipsum eget efficitur. Integer lobortis scelerisque urna id eleifend. Nullam sagittis consequat dui ac scelerisque. Proin tempus venenatis euismod. Suspendisse ex elit, fermentum.</p>
 						</div>
 					</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
+  <!--start-galery-->
+  <div class="main">
+ <div class="wrap">
+  <div class="products">
+     <div class="top-box">
+      <h3>Nossas Festas</h3>
+      <hr>
+
+     </div>
+
+      <div class="section group">
+      <div class="col_1_of_4 span_1_of_4">
+        <a href="gallery.php" class="swipebox" title=""> <img src="images/1/thumbs/1.jpg" alt=""><span class="zoom-icon"></span> </a>
+
+               </div>
+      <div class="col_1_of_4 span_1_of_4">
+        <a href="gallery.php" class="swipebox" title=""> <img src="images/1/thumbs/2.jpg" alt=""><span class="zoom-icon"></span> </a>
+
+               </div>
+      <div class="col_1_of_4 span_1_of_4">
+         <a href="gallery.php" class="swipebox" title=""> <img src="images/1/thumbs/3.jpg" alt=""><span class="zoom-icon"></span> </a>
+
+               </div>
+      <div class="col_1_of_4 span_1_of_4">
+        <a href="gallery.php" class="swipebox" title=""> <img src="images/1/thumbs/4.jpg" alt=""><span class="zoom-icon"></span> </a>
+
+               </div>
+      <div class="clearfix"></div>
+    </div>
+     <div class="section group">
+      <div class="col_1_of_4 span_1_of_4">
+        <a href="gallery.php" class="swipebox" title=""> <img src="images/1/thumbs/5.jpg" alt=""><span class="zoom-icon"></span> </a>
+
+               </div>
+      <div class="col_1_of_4 span_1_of_4">
+        <a href="gallery.php" class="swipebox" title=""> <img src="images/1/thumbs/6.jpg" alt=""><span class="zoom-icon"></span> </a>
+
+               </div>
+      <div class="col_1_of_4 span_1_of_4">
+        <a href="gallery.php" class="swipebox" title=""> <img src="images/1/thumbs/7.jpg" alt=""><span class="zoom-icon"></span> </a>
+
+               </div>
+      <div class="col_1_of_4 span_1_of_4">
+        <a href="gallery.php" class="swipebox" title=""> <img src="images/1/thumbs/8.jpg" alt=""><span class="zoom-icon"></span> </a>
+
+               </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+ </div>
+</div>
+
+  <!--end-galery-->
 
 
 	<!--start-footer-->

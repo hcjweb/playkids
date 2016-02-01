@@ -470,20 +470,26 @@ ul.callbacks_tabs.callbacks2_tabs {
 .bridal-top-left{
 	position:relative;
 }
-.b-1 {
-	position: absolute;
-	top: 45%;
-	left: 25%;
 
+.bridal h3 {
+  color: #5e345e;
+	font-size: 2em;
+	font-weight: 700;
+  text-align: center;
+}
+.bridal p {
+  text-align: center;
+  color: #514F4F;
 }
 .b-1 h3,.b-2 h3 {
 	color: #5e345e;
-	font-size: 2em;
-	font-weight: 700;
+	font-size: 1.5em;
+	font-weight: 500;
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.83);
 	text-transform: uppercase;
 	text-align: center;
 	line-height:1.2em;
+  margin-top: 1em;
 }
 .bridal-bottom {
   margin-top: 2.7%;
@@ -491,17 +497,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .bridal-bottom-left img{
 	width:100%;
 }
-.bridal-bottom-left{
-	position:relative;
-}
-.b-2 {
-	position: absolute;
-	top: 38%;
-	left: 29%;
-}
-.b-2 h3 {
-  width: 65%;
-}
+
 /*--bridal-Part-Ends-Here --*/
 /*--footer-Part-starts-Here --*/
 .footer{
@@ -516,6 +512,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .footer-top {
   margin-top: 11%;
   text-align: center;
+  
 }
 .footer-top ul{
 	padding:0;
@@ -614,7 +611,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	font-weight: 600;
 }
 .footer-text {
-  margin-top: 28%;
+  margin-top: 18%;
   text-align: center;
 }
 .footer-text p {
@@ -681,6 +678,13 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .about-top{
 	text-align:center;
+
+}
+.about-top p {
+  text-align:center;
+  color: #999;
+  margin-top: 2em;
+  font-size: 1.2em;
 }
 .about-bottom p{
 	font-size: 16px;
@@ -688,7 +692,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	margin:15px auto 0;
 	line-height: 1.6em;
 	color: #999;
-	width:90%
+	width:90%;
 }
 .why{
 	padding-bottom:6em;

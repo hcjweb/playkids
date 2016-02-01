@@ -28,7 +28,7 @@ img{max-width:100%;}
 }
 body{
 	font-family:Arial, Helvetica, sans-serif;
-	
+
 }
 .wrap{
 	width:80%;
@@ -37,6 +37,7 @@ body{
 	-webkit-transition:all .2s linear;
 	-o-transition:all .2s linear;
 	-ms-transition:all .2s linear;
+  margin-bottom: 1em;
 }
 .logo {
 	text-align: center;
@@ -56,6 +57,12 @@ body{
 	font-size: 3em;
 	font-family: 'bebas_neueregular';
 	margin-bottom: 20px;
+}
+.top-box h3 {
+  color: #5e345e;
+	font-size: 2em;
+	font-weight: 700;
+  text-align: center;
 }
 hr {
 	border-bottom: 1px solid #CCC;
@@ -223,4 +230,3 @@ time {
 	-o-transform: scale(0.99);
 	opacity: 1;
 }
-

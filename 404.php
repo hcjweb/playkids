@@ -1,16 +1,10 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
 <title>Dream Wedding a Wedding Category Flat Bootstarp responsive Website Template| 404 :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Dream Wedding Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+<meta name="keywords" content="Dream Wedding Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -23,7 +17,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
@@ -35,32 +29,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<!----start-header---->
-	<div class="header" id="home">
-		<div class="container">
-			<div class="logo">
-				<a href="index.html"><img src="images/lg-2.png" alt=""></a>
-			</div>
-			<div class="navigation">
-			 <span class="menu"></span> 
-				<ul class="navig">
-					<li><a href="index.html">Home</a><span> </span></li>
-					<li><a href="about.html">About</a><span> </span></li>
-					<li><a class="active" href="404.html">Services</a><span> </span></li>
-					<li><a href="blog.html">Blog</a><span> </span></li>
-					<li><a href="gallery.html">Gallery</a><span> </span></li>
-					<li><a href="contact.html">Contact</a><span> </span></li>
-				</ul>
-			</div>
-				 <!-- script-for-menu -->
-		 <script>
-				$("span.menu").click(function(){
-					$(" ul.navig").slideToggle("slow" , function(){
-					});
-				});
-		 </script>
-		 <!-- script-for-menu -->
-		</div>
-	</div>	
+	<?php include 'inc/header.php'; ?>
 	<!----end-header---->
 	<!--banner-starts-->
 	<div class="bnr" id="home">
@@ -94,7 +63,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="clearfix"> </div>
 	</div>
-	<!--banner-ends--> 
+	<!--banner-ends-->
 	<!--Slider-Starts-Here-->
 				<script src="js/responsiveslides.min.js"></script>
 			 <script>
@@ -114,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			          $('.events').append("<li>after event fired.</li>");
 			        }
 			      });
-			
+
 			    });
 			  </script>
 			<!--End-slider-script-->
@@ -123,55 +92,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="error">
 		<div class="container">
 			<div class="error-top">
-				<p>OOPS! - Could not Find it</p>
+				<p>OOPS! - Aconteceu algo errado, não pudemos encontrar a página solicitada</p>
 				<h3>404</h3>
 				<div class="error-btn">
-					<a href="#">Back To Home</a></div>
+					<a href="index.php">Retornar ao Ínicio</a></div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!----end-404---->
 	<!----start-footer---->
-	<div class="footer">
-		<div class="container">
-			<div class="footer-top">
-				<ul>
-					<li><a href="#"><span class="fb"> </span></a></li>
-					<li><a href="#"><span class="twit"> </span></a></li>
-					<li><a href="#"><span class="google"> </span></a></li>
-					<li><a href="#"><span class="pin"> </span></a></li>
-					<li><a href="#"><span class="dribble"> </span></a></li>
-				</ul>
-			</div>
-			<div class="newsletter">
-				<ul>
-					<li><h6>NEWSLETTER  :</h6></li>
-					<li><input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/></li>
-					<li><form><input type="submit" value="Subscribe" /></form></li>
-				</ul>
-			</div>
-			<div class="footer-text">
-				<p>Design by <a href="http://w3layouts.com/" target="_blank"> W3layouts</a></p>
-			</div>
-		</div>
-		<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	</div>
+<?php include 'inc/footer.php'; ?>
 	<!----end-footer---->
 </body>
 </html>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
  <html lang="pt-br">
  <head>
@@ -12,6 +11,7 @@ setTimeout(hideURLbar, 0); }, false); function hideURLbar(){
 window.scrollTo(0,1); } </script>
  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
  <link href="css/style.css" rel='stylesheet' type='text/css' />
+ <link rel="stylesheet" href="css/galeria.css" type="text/css" />
  <link href='http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic'
 rel='stylesheet' type='text/css'>
  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
